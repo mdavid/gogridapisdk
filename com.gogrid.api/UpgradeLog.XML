@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="com.gogrid.api">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\varghese\My Documents\com.gogrid.api\com.gogrid.api.sln">
+</Property><Property Name="Date" Value="Tuesday, March 10, 2009">
+</Property><Property Name="Time" Value="5:34 AM">
+</Property></Properties><Event ErrorLevel="2" Project="com.gogrid.api" Source="com.gogrid.api\com.gogrid.api.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="com.gogrid.api.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="com.gogrid.api.sln" Description="Converted">
+</Event></UpgradeLog>
