@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gogrid>
+  <response method="/common/lookup/list" status="success">
+    <summary total="3" start="0" returned="3"/>
+    <list>
+      <object name="option">
+        <attribute name="id">1</attribute>
+        <attribute name="name">512MB</attribute>
+        <attribute name="description">Server with 512MB RAM</attribute>
+      </object>
+      <object name="option">
+        <attribute name="id">2</attribute>
+        <attribute name="name">1GB</attribute>
+        <attribute name="description">Server with 1GB RAM</attribute>
+      </object>
+      <object name="option">
+        <attribute name="id">3</attribute>
+        <attribute name="name">2GB</attribute>
+        <attribute name="description">Server with 2GB RAM</attribute>
+      </object>
+    </list>
+  </response>
+</gogrid>

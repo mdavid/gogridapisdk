@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gogrid>
+  <response method="/grid/image/list" status="success">
+    <summary total="39" start="10" numpages="8" returned="5" />
+    <list>
+      <object name="serverimage">
+        <attribute name="id">24</attribute>
+        <attribute name="name">centos51_64_apache</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="location">centos51_64_apache_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">25</attribute>
+        <attribute name="name">centos51_64_php</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="location">centos51_64_php_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">26</attribute>
+        <attribute name="name">centos51_64_lamp</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="location">centos51_64_lamp_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">27</attribute>
+        <attribute name="name">centos51_64_mysql</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="location">centos51_64_mysql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">28</attribute>
+        <attribute name="name">centos51_64_postgresql</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="location">centos51_64_postgresql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+    </list>
+  </response>
+</gogrid>

@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gogrid>
+  <response method="/grid/image/list" status="success">
+    <summary total="39" start="0" numpages="0" returned="39" />
+    <list>
+      <object name="serverimage">
+        <attribute name="id">3</attribute>
+        <attribute name="name">w2k3r2dc_32_iis6</attribute>
+        <attribute name="friendlyName">Windows 2003 (32-bit) w/ IIS 6.0</attribute>
+        <attribute name="description">Windows 2003 (32-bit) w/ IIS 6.0</attribute>
+        <attribute name="location">w2k3r2dc_32_iis6_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">6</attribute>
+        <attribute name="name">w2k3r2dc_32_mssql2k5wg</attribute>
+        <attribute name="friendlyName">Windows 2003 (32-bit) w/ MSSQL 2005 Workgroup</attribute>
+        <attribute name="description">Windows 2003 (32-bit) w/ MSSQL 2005 Workgroup</attribute>
+        <attribute name="location">w2k3r2dc_32_mssql2k5wg_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">7</attribute>
+        <attribute name="name">w2k3r2dc_32_mssql2k5std</attribute>
+        <attribute name="friendlyName">Windows 2003 (32-bit) w/ MSSQL 2005 Standard</attribute>
+        <attribute name="description">Windows 2003 (32-bit) w/ MSSQL 2005 Standard</attribute>
+        <attribute name="location">w2k3r2dc_32_mssql2k5std_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">12</attribute>
+        <attribute name="name">w2k3r2ent_32_iis6_asp_sqlxpress</attribute>
+        <attribute name="friendlyName">Windows 2003 (32-bit) w/ IIS 6.0 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2003 (32-bit) w/ IIS 6.0 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k3r2ent_32_iis6_asp_sqlxpress_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">13</attribute>
+        <attribute name="name">w2k3r2ent_32_sqlxpress</attribute>
+        <attribute name="friendlyName">Windows 2003 (32-bit) w/ MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2003 (32-bit) w/ MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k3r2ent_32_sqlxpress_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">19</attribute>
+        <attribute name="name">rhel51_64_apache</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="description">RHEL 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="location">rhel51_64_apache_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">20</attribute>
+        <attribute name="name">rhel51_64_php</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="description">RHEL 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="location">rhel51_64_php_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">21</attribute>
+        <attribute name="name">rhel51_64_lamp</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="description">RHEL 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="location">rhel51_64_lamp_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">22</attribute>
+        <attribute name="name">rhel51_64_mysql</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="description">RHEL 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="location">rhel51_64_mysql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">23</attribute>
+        <attribute name="name">rhel51_64_postgresql</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="description">RHEL 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="location">rhel51_64_postgresql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">24</attribute>
+        <attribute name="name">centos51_64_apache</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2</attribute>
+        <attribute name="location">centos51_64_apache_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">25</attribute>
+        <attribute name="name">centos51_64_php</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1</attribute>
+        <attribute name="location">centos51_64_php_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">26</attribute>
+        <attribute name="name">centos51_64_lamp</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ Apache 2.2 + PHP 5.1 + MySQL 5.0</attribute>
+        <attribute name="location">centos51_64_lamp_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">27</attribute>
+        <attribute name="name">centos51_64_mysql</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ MySQL 5.0</attribute>
+        <attribute name="location">centos51_64_mysql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">28</attribute>
+        <attribute name="name">centos51_64_postgresql</attribute>
+        <attribute name="friendlyName">CentOS 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="description">CentOS 5.1 (64-bit) w/ PostgreSQL 8.1</attribute>
+        <attribute name="location">centos51_64_postgresql_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">29</attribute>
+        <attribute name="name">w2k8_32_base</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (32-bit) w/ None</attribute>
+        <attribute name="description">Windows 2008 Server (32-bit) w/ None</attribute>
+        <attribute name="location">w2k8_32_base_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">30</attribute>
+        <attribute name="name">w2k8_32_iis</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (32-bit) w/ IIS 7.0</attribute>
+        <attribute name="description">Windows 2008 Server (32-bit) w/ IIS 7.0</attribute>
+        <attribute name="location">w2k8_32_iis_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">31</attribute>
+        <attribute name="name">w2k8_32_iis_sqlxpress2k5</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (32-bit) w/ IIS 7.0 + MSSQL 2005 Express</attribute>
+        <attribute name="description">Windows 2008 Server (32-bit) w/ IIS 7.0 + MSSQL 2005 Express</attribute>
+        <attribute name="location">w2k8_32_iis_sqlxpress2k5_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">32</attribute>
+        <attribute name="name">w2k8_32_iis_sqlxpress2k5_asp</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (32-bit) w/ IIS 7.0 + ASP.NET + MSSQL 2005 Express</attribute>
+        <attribute name="description">Windows 2008 Server (32-bit) w/ IIS 7.0 + ASP.NET + MSSQL 2005 Express</attribute>
+        <attribute name="location">w2k8_32_iis_sqlxpress2k5_asp_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">33</attribute>
+        <attribute name="name">w2k8_64_base</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (64-bit) w/ None</attribute>
+        <attribute name="description">Windows 2008 Server (64-bit) w/ None</attribute>
+        <attribute name="location">w2k8_64_base_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">34</attribute>
+        <attribute name="name">w2k8_64_iis</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (64-bit) w/ IIS 7.0</attribute>
+        <attribute name="description">Windows 2008 Server (64-bit) w/ IIS 7.0</attribute>
+        <attribute name="location">w2k8_64_iis_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">35</attribute>
+        <attribute name="name">w2k8_64_iis_sqlxpress2k5</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (64-bit) w/ IIS 7.0 + MSSQL 2005 Express</attribute>
+        <attribute name="description">Windows 2008 Server (64-bit) w/ IIS 7.0 + MSSQL 2005 Express</attribute>
+        <attribute name="location">w2k8_64_iis_sqlxpress2k5_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">36</attribute>
+        <attribute name="name">w2k8_64_iis_sqlxpress2k5_asp</attribute>
+        <attribute name="friendlyName">Windows 2008 Server (64-bit) w/ IIS 7.0 + ASP.NET + MSSQL 2005 Express</attribute>
+        <attribute name="description">Windows 2008 Server (64-bit) w/ IIS 7.0 + ASP.NET + MSSQL 2005 Express</attribute>
+        <attribute name="location">w2k8_64_iis_sqlxpress2k5_asp_</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">50</attribute>
+        <attribute name="name">w2k3_64_iis</attribute>
+        <attribute name="friendlyName">Windows 2003 (64-bit) w/ IIS 6.0</attribute>
+        <attribute name="description">Windows 2003 (64-bit) w/ IIS 6.0</attribute>
+        <attribute name="location">w2k3_64_iis</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">51</attribute>
+        <attribute name="name">w2k3_64_iis_asp_mssql2k5xp</attribute>
+        <attribute name="friendlyName">Windows 2003 (64-bit) w/ IIS 6.0 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2003 (64-bit) w/ IIS 6.0 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k3_64_iis_asp_mssql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">52</attribute>
+        <attribute name="name">w2k3_64_mssql2k5xp</attribute>
+        <attribute name="friendlyName">Windows 2003 (64-bit) w/ MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2003 (64-bit) w/ MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k3_64_mssql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">55</attribute>
+        <attribute name="name">w2k8_32_iis_php_mssql2k5xp</attribute>
+        <attribute name="friendlyName">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k8_32_iis_php_mssql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">56</attribute>
+        <attribute name="name">w2k8_32_iis_php_asp_msql2k5xp</attribute>
+        <attribute name="friendlyName">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k8_32_iis_php_asp_msql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">57</attribute>
+        <attribute name="name">w2k8_32_iis_php_mysql</attribute>
+        <attribute name="friendlyName">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + MySQL 5.0</attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ IIS 7.0 + PHP 5.2 + MySQL 5.0</attribute>
+        <attribute name="location">w2k8_32_iis_php_mysql</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">58</attribute>
+        <attribute name="name">w2k8_32_apache_php_msql2k5xp</attribute>
+        <attribute name="friendlyName">Windows 2008 (32-bit) w/ Apache 2.2 + PHP 5.2 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ Apache 2.2 + PHP 5.2 + ASP.NET + MS SQL Server 2005 Express</attribute>
+        <attribute name="location">w2k8_32_apache_php_msql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">61</attribute>
+        <attribute name="name">w2k8_32_iis_fast_mssql2k5xp</attribute>
+        <attribute name="friendlyName">
+          Windows 2008 (32-bit)
+          w/ IIS 7.0 + FastCGI + MSSQL 2005 Express
+        </attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ IIS 7.0 + FastCGI + MSSQL 2005 Express</attribute>
+        <attribute name="location">w2k8_32_iis_fast_mssql2k5xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">62</attribute>
+        <attribute name="name">centos52_32_rightscale_4_2_0</attribute>
+        <attribute name="friendlyName">CentOS 5.2 (32-bit) w/ RightScale</attribute>
+        <attribute name="description">CentOS 5.2 (32-bit) w/ RightScale</attribute>
+        <attribute name="location">centos52_32_rightscale_4_2_0</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">63</attribute>
+        <attribute name="name">centos52_64_rightscale_4_2_0</attribute>
+        <attribute name="friendlyName">CentOS 5.2 (64-bit) w/ RightScale</attribute>
+        <attribute name="description">CentOS 5.2 (64-bit) w/ RightScale</attribute>
+        <attribute name="location">centos52_64_rightscale_4_2_0</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">64</attribute>
+        <attribute name="name">rhel51_32_appistry</attribute>
+        <attribute name="friendlyName">RHEL 5.1 (32-bit) w/ Appistry</attribute>
+        <attribute name="description">RHEL 5.1 (32-bit) w/ Appistry</attribute>
+        <attribute name="location">rhel51_32_appistry</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">65</attribute>
+        <attribute name="name">w2k8_32_iis_fast_mssql2k8xp</attribute>
+        <attribute name="friendlyName">Windows 2008 (32-bit) w/ IIS 7.0 + FastCGI + MSSQL 2008 Express</attribute>
+        <attribute name="description">Windows 2008 (32-bit) w/ IIS 7.0 + FastCGI + MSSQL 2008 Express</attribute>
+        <attribute name="location">w2k8_32_iis_fast_mssql2k8xp</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">66</attribute>
+        <attribute name="name">w2k3_64_mssql2k8wg</attribute>
+        <attribute name="friendlyName">Windows 2003 (64-bit) w/ MSSQL 2008 Workgroup</attribute>
+        <attribute name="description">Windows 2003 (64-bit) w/ MSSQL 2008 Workgroup</attribute>
+        <attribute name="location">w2k3_64_mssql2k8wg</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">67</attribute>
+        <attribute name="name">w2k3_64_mssql2k8std</attribute>
+        <attribute name="friendlyName">Windows 2003 (64-bit) w/ MSSQL 2008 Standard</attribute>
+        <attribute name="description">Windows 2003 (64-bit) w/ MSSQL 2008 Standard</attribute>
+        <attribute name="location">w2k3_64_mssql2k8std</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">68</attribute>
+        <attribute name="name">w2k8_64_mssql2k8wg</attribute>
+        <attribute name="friendlyName">Windows 2008 (64-bit) w/ MSSQL 2008 Workgroup</attribute>
+        <attribute name="description">Windows 2008 (64-bit) w/ MSSQL 2008 Workgroup</attribute>
+        <attribute name="location">w2k8_64_mssql2k8wg</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+      <object name="serverimage">
+        <attribute name="id">69</attribute>
+        <attribute name="name">w2k8_64_mssql2k8std</attribute>
+        <attribute name="friendlyName">Windows 2008 (64-bit) w/ MSSQL 2008 Standard</attribute>
+        <attribute name="description">Windows 2008 (64-bit) w/ MSSQL 2008 Standard</attribute>
+        <attribute name="location">w2k8_64_mssql2k8std</attribute>
+        <attribute name="isActive">true</attribute>
+        <attribute name="isPublic">true</attribute>
+        <attribute name="createdTime"></attribute>
+        <attribute name="updatedTime"></attribute>
+      </object>
+    </list>
+  </response>
+</gogrid>
