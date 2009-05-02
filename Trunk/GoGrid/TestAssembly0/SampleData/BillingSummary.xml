@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="billingsummary">
+  <attribute name="startDate">Sat Jul 12 00:00:00 PDT 2008</attribute>
+  <attribute name="endDate">Tue Aug 12 00:00:00 PDT 2008</attribute>
+  <attribute name="memoryAllotment">0</attribute>
+  <attribute name="memoryInUse">0.5</attribute>
+  <attribute name="memoryAccrued">192</attribute>
+  <attribute name="memoryOverage">52</attribute>
+  <attribute name="memoryOverageCharge">9.879999876022339</attribute>
+  <attribute name="transferAllotment">0</attribute>
+  <attribute name="transferAccrued">0</attribute>
+  <attribute name="transferOverage">0</attribute>
+  <attribute name="transferOverageCharge">0.0</attribute>
+</object>
