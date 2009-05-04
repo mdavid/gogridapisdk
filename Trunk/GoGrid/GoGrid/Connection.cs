@@ -354,6 +354,23 @@ namespace GoGrid
             return server;
         }
 
+        public Server RestartServer(string server)
+        {
+            return this.RestartServer(FindServer.ByAny(server));
+        }
+
+        public Server RestartServer(FindServer findBy)
+        {
+            ValueModifier power = new ValueModifier("power", "restart");
+            IModifier[] modifiers = new IModifier[] { findBy, power };
+
+            Response response = this.GetResponse(MethodConstants.GridServerPower, modifiers);
+            XmlNodeList list = response.GetObjectNodes(ObjectConstants.Server);
+            Server server = Server.CreateFromXmlNode(list[0], this);
+
+            return server;
+        }
+
         public Server StopServer(string server)
         {
             return this.StopServer(FindServer.ByAny(server));
