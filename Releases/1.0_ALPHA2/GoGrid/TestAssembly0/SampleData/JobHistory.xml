@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="job_history">
+  <attribute name="id">10242</attribute>
+  <attribute name="state">
+    <object name="option">
+      <attribute name="id">7</attribute>
+      <attribute name="name">Created</attribute>
+      <attribute name="description">Change request is created but not queued yet</attribute>
+    </object>
+  </attribute>
+  <attribute name="note"></attribute>
+  <attribute name="updatedon"></attribute>
+</object>

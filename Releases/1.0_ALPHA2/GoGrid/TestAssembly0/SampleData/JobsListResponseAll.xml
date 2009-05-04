@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gogrid>
+  <response method="/grid/job/list" status="success">
+    <summary total="7" start="0" numpages="1" returned="7"/>
+    <list>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+      <object name="job">
+        <attribute name="id">60531</attribute>
+        <attribute name="owner">ankit@gogrid.com</attribute>
+        <attribute name="createdon">1231007644632</attribute>
+        <attribute name="lastupdatedon">1231008346317</attribute>
+        <attribute name="attempts">1</attribute>
+        <attribute name="history">
+          <list>
+            <object name="job_history">
+              <attribute name="id">10242</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">7</attribute>
+                  <attribute name="name">Created</attribute>
+                  <attribute name="description">Change request is created but not queued yet</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10243</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">1</attribute>
+                  <attribute name="name">Queued</attribute>
+                  <attribute name="description">Change request is new to the system.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10244</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">2</attribute>
+                  <attribute name="name">Processing</attribute>
+                  <attribute name="description">Change request is is transient state...Processing.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon"></attribute>
+            </object>
+            <object name="job_history">
+              <attribute name="id">10251</attribute>
+              <attribute name="state">
+                <object name="option">
+                  <attribute name="id">3</attribute>
+                  <attribute name="name">Succeeded</attribute>
+                  <attribute name="description">Change request has succeeded.</attribute>
+                </object>
+              </attribute>
+              <attribute name="note"></attribute>
+              <attribute name="updatedon">1231008346317</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="currentstate">
+          <object name="option">
+            <attribute name="id">3</attribute>
+            <attribute name="name">Succeeded</attribute>
+            <attribute name="description">Change request has succeeded.</attribute>
+          </object>
+        </attribute>
+        <attribute name="command">
+          <object name="option">
+            <attribute name="id">6</attribute>
+            <attribute name="name">CreateVirtualServer</attribute>
+            <attribute name="description">Create Virtual Server</attribute>
+          </object>
+        </attribute>
+        <attribute name="objecttype">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">VirtualServer</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="detail">{type=virtual_server, description=tests, image=w2k3_64_iis_asp_mssql2k5xp, ip=208.113.76.34, name=test 2}</attribute>
+      </object>
+    </list>
+  </response>
+</gogrid>

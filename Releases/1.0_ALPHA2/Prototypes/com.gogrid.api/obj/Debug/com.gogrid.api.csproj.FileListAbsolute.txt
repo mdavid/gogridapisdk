@@ -1,0 +1,5 @@
+C:\Documents and Settings\varghese\My Documents\com.gogrid.api\bin\Debug\com.gogrid.api.dll
+C:\Documents and Settings\varghese\My Documents\com.gogrid.api\bin\Debug\com.gogrid.api.pdb
+C:\Documents and Settings\varghese\My Documents\com.gogrid.api\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\varghese\My Documents\com.gogrid.api\obj\Debug\com.gogrid.api.dll
+C:\Documents and Settings\varghese\My Documents\com.gogrid.api\obj\Debug\com.gogrid.api.pdb

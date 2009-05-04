@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="option">
+  <attribute name="id">1</attribute>
+  <attribute name="name">512MB</attribute>
+  <attribute name="description">Server with 512MB RAM</attribute>
+</object>
