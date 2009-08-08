@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gogrid>
+  <response method="/grid/loadbalancer/list" status="success">
+    <summary total="1" start="0" numpages="1" returned="1"/>
+    <list>
+      <object name="loadbalancer">
+        <attribute name="id">791</attribute>
+        <attribute name="name">Test</attribute>
+        <attribute name="description">My Load Balancer</attribute>
+        <attribute name="virtualip">
+          <object name="ipportpair">
+            <attribute name="ip">
+              <object name="ip">
+                <attribute name="id">138803</attribute>
+                <attribute name="ip">216.121.62.34</attribute>
+                <attribute name="subnet">216.121.62.32/255.255.255.240</attribute>
+                <attribute name="public">true</attribute>
+              </object>
+            </attribute>
+            <attribute name="port">2300</attribute>
+          </object>
+        </attribute>
+        <attribute name="type">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">Round Robin</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="persistence">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">None</attribute>
+            <attribute name="description"></attribute>
+          </object>
+        </attribute>
+        <attribute name="realiplist">
+          <list>
+            <object name="ipportpair">
+              <attribute name="ip">
+                <object name="ip">
+                  <attribute name="id">138806</attribute>
+                  <attribute name="ip">216.121.62.37</attribute>
+                  <attribute name="subnet">216.121.62.32/255.255.255.240</attribute>
+                  <attribute name="public">true</attribute>
+                </object>
+              </attribute>
+              <attribute name="port">2400</attribute>
+            </object>
+          </list>
+        </attribute>
+        <attribute name="os">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">F5</attribute>
+            <attribute name="description">The F5 Load Balancer.</attribute>
+          </object>
+        </attribute>
+        <attribute name="state">
+          <object name="option">
+            <attribute name="id">1</attribute>
+            <attribute name="name">On</attribute>
+            <attribute name="description">Loadbalancer is enabled and on.</attribute>
+          </object>
+        </attribute>
+      </object>
+    </list>
+  </response>
+</gogrid>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object name="serverimage">
+  <attribute name="id">1</attribute>
+  <attribute name="name">centos44_32_apache22php5</attribute>
+  <attribute name="friendlyName">CentOS 4.4 (32-bit) w/ Apache 2.2 + PHP5</attribute>
+  <attribute name="description">CentOS 4.4 (32-bit) w/ Apache 2.2 + PHP5</attribute>
+  <attribute name="location">centos44_32_apache22php5_</attribute>
+  <attribute name="isActive">true</attribute>
+  <attribute name="isPublic">true</attribute>
+  <attribute name="createdTime"></attribute>
+  <attribute name="updatedTime"></attribute>
+</object>

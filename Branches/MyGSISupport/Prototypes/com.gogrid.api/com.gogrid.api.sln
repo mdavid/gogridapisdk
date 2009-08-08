@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.gogrid.api", "com.gogrid.api.csproj", "{8E890F3E-06B0-4738-B830-C61682C288F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{F9480959-2379-4CE4-A189-DC268F8D00A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA6F9DBA-FD02-4F7E-B05E-794117DB249D}"
+	ProjectSection(SolutionItems) = preProject
+		com.gogrid.api.vsmdi = com.gogrid.api.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = com.gogrid.api.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E890F3E-06B0-4738-B830-C61682C288F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E890F3E-06B0-4738-B830-C61682C288F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E890F3E-06B0-4738-B830-C61682C288F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E890F3E-06B0-4738-B830-C61682C288F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9480959-2379-4CE4-A189-DC268F8D00A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9480959-2379-4CE4-A189-DC268F8D00A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9480959-2379-4CE4-A189-DC268F8D00A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9480959-2379-4CE4-A189-DC268F8D00A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

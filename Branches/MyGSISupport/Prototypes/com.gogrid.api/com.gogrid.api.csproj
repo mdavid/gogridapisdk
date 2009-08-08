@@ -1,0 +1,77 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E890F3E-06B0-4738-B830-C61682C288F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.gogrid.api</RootNamespace>
+    <AssemblyName>com.gogrid.api</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data Classes\BillingSummary.cs" />
+    <Compile Include="Data Classes\Ip.cs" />
+    <Compile Include="Data Classes\Messages.cs" />
+    <Compile Include="Data Classes\Option.cs" />
+    <Compile Include="GlobalVariables.cs" />
+    <Compile Include="GridCredentials.cs" />
+    <Compile Include="LoadBalancer Data Classes\LoadBalancer.cs" />
+    <Compile Include="LoadBalancer Data Classes\LoadBalancerDS.cs" />
+    <Compile Include="LoadBalancer Data Classes\Persistence.cs" />
+    <Compile Include="Methods\BillingMethods.cs" />
+    <Compile Include="Methods\IPMethods.cs" />
+    <Compile Include="Methods\LoadBalancerMethods.cs" />
+    <Compile Include="Methods\PasswordMethods.cs" />
+    <Compile Include="Methods\ServerImageMethods.cs" />
+    <Compile Include="Methods\ServerMethods.cs" />
+    <Compile Include="Methods\UtilityMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server Image Data Classes\ServerImage.cs" />
+    <Compile Include="Server Method Data Classes\PasswordList.cs" />
+    <Compile Include="Server Method Data Classes\Ram.cs" />
+    <Compile Include="Server Method Data Classes\Server.cs" />
+    <Compile Include="Server Method Data Classes\ServerListDS.cs" />
+    <Compile Include="Server Method Data Classes\ServerOs.cs" />
+    <Compile Include="Server Method Data Classes\ServerState.cs" />
+    <Compile Include="Server Method Data Classes\ServerType.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
