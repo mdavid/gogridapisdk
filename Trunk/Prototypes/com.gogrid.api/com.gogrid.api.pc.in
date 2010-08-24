@@ -1,0 +1,6 @@
+Name: com.gogrid.api
+Description: com.gogrid.api
+Version: 0.1
+
+Requires: 
+Libs: -r:@expanded_libdir@/@PACKAGE@/com.gogrid.api.dll
